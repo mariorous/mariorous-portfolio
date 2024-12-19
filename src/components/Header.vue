@@ -9,7 +9,7 @@
                 <!-- Logo -->
                 <div>
                     <a class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80" href="#">
-                        <img class="w-10" src="../assets/mario-logo.png" alt="">
+                        <img class="w-8 mt-1 md:w-10" src="../assets/mario-logo.png" alt="">
                     </a>
                 </div>
                 <!-- End Logo -->
