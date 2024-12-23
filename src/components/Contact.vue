@@ -1,9 +1,14 @@
 <script setup>
+import { ref } from 'vue';
+import { defineProps } from 'vue'
 
+const props = defineProps({
+    language: String,
+})
 </script>
 
 <template>
-    <section class="min-h-screen">
+    <section class="mb-36">
         <div class="container px-6 py-10 mx-auto">
             <div class="lg:flex lg:items-center lg:-mx-10">
                 <div class="lg:w-1/2 lg:mx-10">

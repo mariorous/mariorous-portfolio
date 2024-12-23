@@ -1,4 +1,10 @@
 <script setup>
+import { ref } from 'vue';
+import { defineProps } from 'vue'
+
+const props = defineProps({
+    language: String,
+})
 
 </script>
 
@@ -15,25 +21,25 @@
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
         <div class="max-w-2xl text-center mx-auto">
             <p class="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
-            Portfolio version 1.0
+            {{ $t('portfolioVersion') }}
             </p>
 
             <!-- Title -->
             <div class="mt-5 max-w-2xl">
             <h1 class="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
-                Hello <span class="bg-clip-text bg-gradient-to-l from-violet-500 to-blue-600 text-transparent dark:from-violet-400 dark:to-blue-400">I'm Mario López</span>
+                {{ $t('welcome') }} <span class="bg-clip-text bg-gradient-to-l from-violet-500 to-blue-600 text-transparent dark:from-violet-400 dark:to-blue-400">{{ $t('im') }} Mario López</span>
             </h1>
             </div>
             <!-- End Title -->
 
             <div class="mt-5 max-w-3xl">
-            <p class="text-lg text-gray-600 dark:text-neutral-400">Full Stack Developer with a passion for creating innovative and efficient solutions. I thrive on building robust applications and continuously expanding my knowledge in the ever-evolving field of technology.</p>
+            <p class="text-lg text-gray-600 dark:text-neutral-400">{{ $t('miniDesc') }}</p>
             </div>
 
             <!-- Buttons -->
             <div class="mt-8 gap-3 flex justify-center">
             <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="/src/assets/mario-lopez-resume.pdf" download="mario-lopez-resume.pdf">
-                Resume
+                {{ $t('resume') }}
                 <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
             </a>
             <a class="py-3 px-4 inline-flex items-center gap-x-1 text-sm font-medium rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="https://github.com/mariorous">
