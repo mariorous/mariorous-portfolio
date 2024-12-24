@@ -18,7 +18,7 @@ const setFavicon = (theme) => {
     const favicon = document.querySelector("link[rel='icon']");
     if (favicon) {
         favicon.href = theme === 'dark'
-            ? '/icon-mario-white.svg' // Favicon para modo oscuro
+            ? '/icon-mario-white.svg' // Favicon para modo oscuro (ruta al archivo generado en la carpeta dist porque al hacer un build se genera la carpeta dist y el contenido de la carpeta public se queda dentro y desaparece la carpeta public)
             : '/icon-mario-black.svg'; // Favicon para modo claro
     }
 };
