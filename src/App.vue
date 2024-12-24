@@ -18,8 +18,8 @@ const setFavicon = (theme) => {
     const favicon = document.querySelector("link[rel='icon']");
     if (favicon) {
         favicon.href = theme === 'dark'
-            ? '/public/icon-mario-white.svg' // Favicon para modo oscuro
-            : '/public/icon-mario-black.svg'; // Favicon para modo claro
+            ? '/icon-mario-white.svg' // Favicon para modo oscuro
+            : '/icon-mario-black.svg'; // Favicon para modo claro
     }
 };
 
