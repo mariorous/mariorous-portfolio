@@ -10,7 +10,7 @@ const props = defineProps({
 <template>
     <div class="sm:flex items-center max-w-screen-xl m-auto justify-center">
         <div class="sm:w-1/2 p-5">
-            <div class="text">
+            <div id="aboutMe" class="text">
                 <span class="text-blue-600 font-medium uppercase dark:text-violet-400">{{ $t('aboutMe') }}</span>
                 <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">{{ $t('who') }} <span class="bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">{{ $t('amI') }}</span>
                 </h2>

@@ -81,6 +81,9 @@ const toggleLanguage = () => {
 </template>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 body.dark {
     background-color: #1a202c; /* Color de fondo oscuro */
     color: #f7fafc; /* Color de texto claro */

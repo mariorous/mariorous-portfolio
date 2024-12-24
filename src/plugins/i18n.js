@@ -41,6 +41,8 @@ const messages = {
     projectType3: "VSCode Theme",
     projectName3: "Gesper Theme",
     projectDesc3: "A more colorized version of Vesper Theme from raunofreiberg.",
+    link: "Link",
+    repository: "Repository",
   },
   es: {
     portfolioVersion: 'Versión del portfolio 1.0',
@@ -82,6 +84,8 @@ const messages = {
     projectType3: "Tema de VSCode",
     projectName3: "Gesper Theme",
     projectDesc3: "Una versión más colorida de Vesper Theme de raunofreiberg.",
+    link: "Enlace",
+    repository: "Repositorio",
   },
 };
 
