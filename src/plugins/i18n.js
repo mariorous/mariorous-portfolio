@@ -6,6 +6,7 @@ const messages = {
     home: 'Home',
     projects: 'Projects',
     aboutMe: 'About me',
+    wallpapers: 'Wallpapers',
     blog: 'Blog',
     resume: 'Resume',
     welcome: "Hello",
@@ -43,12 +44,14 @@ const messages = {
     projectDesc3: "A more colorized version of Vesper Theme from raunofreiberg.",
     link: "Link",
     repository: "Repository",
+    comingSoon: "Coming soon",
   },
   es: {
     portfolioVersion: 'Versión del portfolio 1.0',
     home: 'Inicio',
     projects: 'Proyectos',
     aboutMe: 'Sobre mi',
+    wallpapers: 'Fondos de pantalla',
     blog: 'Blog',
     resume: 'Curriculum',
     welcome: "Hola",
@@ -86,6 +89,7 @@ const messages = {
     projectDesc3: "Una versión más colorida de Vesper Theme de raunofreiberg.",
     link: "Enlace",
     repository: "Repositorio",
+    comingSoon: "Próximamente",
   },
 };
 
